@@ -1,0 +1,51 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("../img/back-abs-003.jpg");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    /* background-position: center center;   */
+
+    background-color: #7fc0ff;
+   }
+
+/* unvisited link */
+a:link {
+    color: #00A7B5;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #00A7B5;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #00A7B5;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #00A7B5;
+  }
+
+
+/*--- place holder  --------*/
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #cccccc;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #cccccc;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #cccccc;
+}
