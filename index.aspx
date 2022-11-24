@@ -10,13 +10,14 @@
     <title>Cibertec - Mi Cuenta (SSO)</title>
     <link rel="shortcut icon" href="https://www.cibertec.edu.pe/wp-content/uploads/2019/07/Cibertec-Iso.png">
 
-    <!-- <link rel="icon" type="image/x-icon" href="/favicon.ico" /> -->
-
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/style.css">
 
     <!--link href="~/Content/style.css" rel="stylesheet" /-->
     <!-- <link href="/Content/style?v=2RVihvmGF35UAcrQZ1Pe_InEkOJqKze-sfIHNABGw4k1" rel="stylesheet"/> -->
-
 
     <!--JUAN CARLOS RODRIGUEZ DONAYRE 08-06-2021 ICONOS fa DENTRO O COSTADO DE UN <button> O <a href=..> -->
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
@@ -24,29 +25,59 @@
           crossorigin="anonymous"> -->
     <!--FIN-->
     
-
-    
 </head>
-
-
-
 
 <body>
 
     <div class="principal">
-        <div class="row">
+        <div class="principal-row">
 
             <div class="col-01-desktop">
                 
-                <div class="ml-md-32 mr-md-64">
-
                     <!-- Formulario -->
                     <form action="#">
 
                         <h3 class="title">BIENVENIDOS</h3>
-                        <p class="mb-0 mb-md-16">
-                            Accede con tu usuario Cibertec. acentó
+                        <p>
+                            Accede con tu usuario Cibertec.
                         </p>
+
+                        <div class="form-body">
+                            <div class="form-file">
+                                <span class="icon-user"></span>
+                                <input type="text" id="input-user" name="user" class="form-text" required  placeholder="Usuario Cibertec" size="10">
+                            </div>
+                            <div class="form-file">
+                                <span class="icon-user"></span>
+                                <input type="password" id="input-password" name="password" class="form-text" required placeholder="Contraseña" size="10">
+                            </div>
+                            <div class="form-file">
+                                <a id="link-login" href="#" class="btn" name="button" value="login">
+                                    INICIAR SESIÓN
+                                </a>
+                            </div>
+                        </div>
+
+                        <p style="width: 100%; text-align:right;">
+                            <a id="link-recuperar" href="#" class="form-link" >
+                                ¿Olvidaste tu contraseña?
+                            </a>
+                        </p>
+                        
+                        <div class="social">
+                            <div class="social-01">
+                                <p>
+                                    Si ya vinculaste tu cuenta,<br>accede a través de:
+                                </p>
+                            </div>
+                            <div class="social-02">
+                                <img src="img/social-face-01.png" onmouseover="this.src='img/social-face-02.png'" onmouseout="this.src='img/social-face-01.png'">                                  
+                            </div>
+                            <div class="social-02">
+                                <img src="img/social-goo-01.png" onmouseover="this.src='img/social-goo-02.png'" onmouseout="this.src='img/social-goo-01.png'">                                  
+                            </div>
+
+                        </div>
                         
 
                         <!-- <div class="toast p-8">
@@ -58,11 +89,7 @@
                             </div>
                         </div> -->
 
-                        <div >
-                            <a id="link-login" href="#" class="btn" name="button" value="login">
-                                INICIAR SESIÓN
-                            </a>
-                        </div>
+                       
 
                         
 
@@ -88,44 +115,23 @@
 
                     </form>
 
-                </div>
+                
             </div>
 
             <div class="col-02-desktop">
                 <div class="logo">
                     <img src="img/logocibertec.png" class="img-logo" />
                 </div>
-                <!-- <div class="ml-md-32 mr-md-64">
-                    <h3 class="title">Bienvenido a Cibertec</h3>
-                    <p class="mb-0 mb-md-16">
-                        Accede fácilmente vinculando tu usuario UPC con tus cuentas de
-                        Facebook o Google.
-                    </p>
-                    <p>
-                        Para configurar esta funcionalidad, ingresa con
-                        tu usuario UPC por única vez.
-                    </p>
-                </div> -->
+                
             </div>
 
         </div>
     </div>
 
-    <div class="row copy" >
+    <div class="principal-row copy" >
         <p>&copy; 2022 - SSO Cibertec</p>
     </div>
-
-
-
     
-    
-    
-
-    <script src="/bundles/index?v=f1xBgB_CdBrUCYbOu5MIRGYPm3ZAx5UdiQIjV4gnQ5g1"></script>
-
-
-    
-
 </body>
 
 
