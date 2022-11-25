@@ -1,6 +1,8 @@
 
-
-
+.logo-mobile {
+    display: none;
+}
+  
 .principal {
 
     background-color: white;
@@ -14,7 +16,30 @@
     padding: 0px;
 
     margin-top: 150px;
-   }
+}
+@media screen and (max-width: 767px) { 
+    .logo-mobile {
+        display: block;
+        width: 100%;
+        margin-top: 40px;
+        height: 40px;
+        text-align: center;
+    }
+    .principal {
+        /* background-color:rgba(255, 255, 255, 0.7); */
+        background-color:rgba(255, 255, 255, 0.5);
+        margin-top: 25px;
+    }  
+  }
+
+  
+
+/* @media (min-width:767px) { 
+    .principal { 
+        background-color: yellow;
+    }
+  
+} */
 
 .principal-row {
     display: flex;
@@ -23,6 +48,7 @@
     width: 100%;
     
    }
+   
 
 /*---- caja 01 - form ----*/
 .col-01-desktop {
@@ -39,6 +65,11 @@
     box-sizing: border-box;         /* Opera/IE 8+ */
 
    }
+   @media screen and (max-width: 767px) { 
+    .col-01-desktop {
+        width: 100%;
+    }  
+  }
 
 .col-01-desktop h3 {
     /* background-color: aqua; */
@@ -142,6 +173,7 @@
 /*---- caja 02 - images ----*/
 .col-02-desktop {
     
+    display: block;
     border-radius: 0 10px 10px 0;
 
     background-image: url("../img/back-col-02-01.jpg");
@@ -152,6 +184,7 @@
     height: 500px;
 
    }
+
 
 .logo {
     /* background-color: pink; */
@@ -172,4 +205,11 @@
 
 
 
-
+@media screen and (max-width: 767px) { 
+    .col-02-desktop {
+        display: none;
+    }  
+    .img-logo {
+        margin-left: 0px;        
+    }
+  }
