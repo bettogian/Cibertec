@@ -61,7 +61,7 @@
                             
                             
                             <div class="form-file">
-                                <a id="link-login" href="recuperar-password-nook.aspx" class="btn" name="button" value="login">
+                                <a id="link-login" href="recuperar-password-ok.aspx" class="btn" name="button" value="login">
                                     CONTINUAR
                                 </a>
                             </div>
@@ -74,22 +74,22 @@
                         </p> -->
                         <div>
                             <div class="msg-adv">
-                                <img src="img/ico-report-orange.png" style="margin-right:5px;">Mínimo 8 caracteres
+                                <img src="img/ico-check.png" style="margin-right:5px;">Mínimo 8 caracteres
                             </div>
                             <div class="msg-adv">
-                                <img src="img/ico-report-orange.png" style="margin-right:5px;">Al menos 1 letra en mayúscula
+                                <img src="img/ico-report-red.png" style="margin-right:5px;">Al menos 1 letra en mayúscula
                             </div>
                             <div class="msg-adv">
-                                <img src="img/ico-report-orange.png" style="margin-right:5px;">Al menos 1 letra en minúscula
+                                <img src="img/ico-check.png" style="margin-right:5px;">Al menos 1 letra en minúscula
                             </div>
                             <div class="msg-adv">
-                                <img src="img/ico-report-orange.png" style="margin-right:5px;">Al menos 1 número
+                                <img src="img/ico-report-red.png" style="margin-right:5px;">Al menos 1 número
                             </div>
                             <div class="msg-adv">
-                                <img src="img/ico-report-orange.png" style="margin-right:5px;">Al menos un caracter especial
+                                <img src="img/ico-report-red.png" style="margin-right:5px;">Al menos un caracter especial
                             </div>
                             <div class="msg-adv">
-                                <img src="img/ico-report-orange.png" style="margin-right:5px;">No usar nombre, apellido o usuario
+                                <img src="img/ico-check.png" style="margin-right:5px;">No usar nombre, apellido o usuario
                             </div>
                         </div>
                         
