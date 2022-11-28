@@ -1,0 +1,21 @@
+
+/* style - global */
+
+html { 
+    background: url(../img/back-abs-003.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+@media screen and (max-width: 767px) { 
+  html { 
+      background: url(../img/back-col-02-01.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;      
+  }
+  
+}
+

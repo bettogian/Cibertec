@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
     <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main-back.css">
+    
     <link rel="stylesheet" href="css/style.css">
 
     <!--link href="~/Content/style.css" rel="stylesheet" /-->
@@ -46,7 +48,7 @@
                         <p>
                             Accede con tu usuario Cibertec.
                         </p>
-
+                        <p style="height: 20px;"></p>
                         <div class="form-body">
                             <div class="form-file">
                                 <span class="icon-user"></span>
@@ -63,8 +65,8 @@
                             </div>
                         </div>
 
-                        <p style="width: 100%; text-align:right;">
-                            <a id="link-recuperar" href="#" class="form-link" >
+                        <p class="form-file-link">
+                            <a id="link-recuperar" href="recuperar.aspx" class="text-link" >
                                 ¿Olvidaste tu contraseña?
                             </a>
                         </p>
