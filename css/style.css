@@ -1,4 +1,6 @@
 
+/* style  */
+
 .logo-mobile {
     display: none;
 }
@@ -28,7 +30,7 @@
     .principal {
         /* background-color:rgba(255, 255, 255, 0.7); */
         background-color:rgba(255, 255, 255, 0.5);
-        margin-top: 25px;
+        margin-top: 25px;        
     }  
   }
 
@@ -86,12 +88,47 @@
 }
 
 .form-body {
-    padding: 30px 0 10px 0;
+    padding: 5px 0 10px 0;
 }
 
 .form-file {
     /* background-color: yellow; */
     padding: 8px 0 8px 0;
+    display: flex;
+    flex-direction: row;    
+    /* justify-content: center; */
+    align-items: center;
+}
+.form-file-code {
+    /* background-color: yellow; */
+    padding: 8px 0 8px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0 30px 10px 30px;
+    
+}
+.form-file-celular {
+    /* background-color: yellow; */
+    padding: 8px 0 8px 0;
+    display: none;
+}
+.opt-code-label {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+.opt-code-label-02 {
+    display: none;
+        
+}
+.form-file-email {
+    /* background-color: yellow; */
+    padding: 8px 0 8px 0;
+    display: none;
 }
 
 .form-text {
@@ -108,18 +145,45 @@
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
-    
+}
+.form-text-code {
+    background-color: #fff;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    color: #2f80ed;
+    width: 100%;
+    height: 50px;
 
+    font-size: 22px;
+    text-align: center;
+
+    padding: 10px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
 }
 .form-text:focus {
     outline: none !important;
     border:1px solid #0080B0;
     /* box-shadow: 0 0 10px #719ECE; */
-
+}
+.form-text-code:focus {
+    outline: none !important;
+    border:1px solid #0080B0;
+    /* box-shadow: 0 0 10px #719ECE; */
 }
 
-.form-link {
+.text-link {
     text-decoration: none;
+    display: flex; 
+}
+
+.form-file-link {
+    /* background-color: pink; */
+    width: 100%;
+    display: flex; 
+    justify-content: flex-end;
+    
 }
 
 
@@ -170,6 +234,10 @@
     padding-right: 15px;
 }
 
+.msg-adv {
+    display: flex;
+}
+
 /*---- caja 02 - images ----*/
 .col-02-desktop {
     
@@ -184,7 +252,19 @@
     height: 500px;
 
    }
+.col-02-desktop-recuperar {
+    
+    display: block;
+    border-radius: 0 10px 10px 0;
 
+    background-image: url("../img/back-col-02-02.jpg");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+    width: 55%;
+    height: 500px;
+
+   }
 
 .logo {
     /* background-color: pink; */
@@ -204,11 +284,80 @@
 }
 
 
+.text-demo {
+    color: #CCCCCC;
+}
+
+
+.recover-datos {
+    background-color: white;
+    color: #0080B0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 34px;;
+    margin-bottom: 15px;
+    margin-top: 55px;
+
+}
+
+.recover-it {
+    
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 13px;
+
+    display: flex;
+    
+}
+
+.recover-it-01 {
+    background-color: #68B945;
+    color: white;
+    border-radius: 5px 0 0 5px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 110px;
+    height: 34px;
+}
+.recover-it-02 {
+    background-color: white;
+    
+    border-radius: 0 5px 5px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;    
+    height: 34px;
+}
+
+input[type="radio"] {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.5rem;
+    
+    /* color: #00A7B5; */
+    /* accent-color: #00A7B5; */
+}
 
 @media screen and (max-width: 767px) { 
     .col-02-desktop {
         display: none;
     }  
+    .col-02-desktop-recuperar {
+        display: none;
+    }  
+    
     .img-logo {
         margin-left: 0px;        
     }
