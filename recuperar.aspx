@@ -8,24 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cibertec - Mi Cuenta (SSO)</title>
-    <link rel="shortcut icon" href="https://www.cibertec.edu.pe/wp-content/uploads/2019/07/Cibertec-Iso.png">
-
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- #Include virtual="scripts.aspx" -->
     
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/recuperar-back.css">
     
-    <link rel="stylesheet" href="css/style.css">
-
-    <!--link href="~/Content/style.css" rel="stylesheet" /-->
-    <!-- <link href="/Content/style?v=2RVihvmGF35UAcrQZ1Pe_InEkOJqKze-sfIHNABGw4k1" rel="stylesheet"/> -->
-
-    <!--JUAN CARLOS RODRIGUEZ DONAYRE 08-06-2021 ICONOS fa DENTRO O COSTADO DE UN <button> O <a href=..> -->
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
-          crossorigin="anonymous"> -->
-    <!--FIN-->
+    <link rel="stylesheet" href="css/style.css">    
     
 </head>
 
@@ -49,23 +38,30 @@
                             Ingresa tu usuario UPC.
                         </p>
                         <p style="height: 10px;"></p>
+
                         <div class="form-body">
-                            <div class="form-file">
-                                <span class="icon-user"></span>
+
+                            <!-- <div class="form-row">
                                 <input type="text" id="input-user" name="user" class="form-text" required  placeholder="Usuario Cibertec" size="10">
+                            </div> -->
+                            <div class="form-row">                            
+                                <input type='text' id="input-user" name="user" class='form-input' required>
+                                <!-- <a><i class='fa fa-check-circle fa-2x check-icon' aria-hidden='true'></i></a>  -->
+                                <label id="text-super">Usuario Cibertec</label>
+                                <a><i class='fas fa-user-circle fa-2x input-icon' style="color:#0080B0" aria-hidden='true'></i></a>
                             </div>
                             <p class="text-demo">
                                 Ej: U202223443
                             </p>
                             
-                            <div class="form-file">
+                            <div class="form-row">
                                 <a id="link-login" href="recuperar-opcion.aspx" class="btn" name="button" value="login">
                                     CONTINUAR
                                 </a>
                             </div>
                         </div>
 
-                        <p class="form-file-link">
+                        <p class="form-row-link">
                             <a id="link-recuperar" href="../" class="text-link" >
                                 Regresar a login  <img src="img/ico-arrow-right.png" style="margin-left:5px;"> 
                             </a>
@@ -103,6 +99,8 @@
     <div class="principal-row copy" >
         <p>&copy; 2022 - SSO Cibertec</p>
     </div>
+    
+    <script src="js/scripts.js"></script>
     
 </body>
 
