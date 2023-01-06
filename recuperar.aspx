@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="css/recuperar-back.css">
     
     <link rel="stylesheet" href="css/style.css">    
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     
 </head>
 
@@ -49,6 +51,8 @@
                                 <!-- <a><i class='fa fa-check-circle fa-2x check-icon' aria-hidden='true'></i></a>  -->
                                 <label id="text-super">Usuario Cibertec</label>
                                 <a><i class='fas fa-user-circle fa-2x input-icon' style="color:#0080B0" aria-hidden='true'></i></a>
+                                <!-- <a><i class="material-symbols-outlined">settings_accessibility</i></a> -->
+
                             </div>
                             <p class="text-demo">
                                 Ej: U202223443
